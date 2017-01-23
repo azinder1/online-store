@@ -8,6 +8,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { AlbumDetailComponent } from './album-detail/album-detail.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MarketplaceComponent } from './marketplace/marketplace.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
